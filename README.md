@@ -8,8 +8,8 @@ A while ago I wrote a shell script for macOS (i.e. BSD-based OS, although that's
 The script should also be runnable on Linux machines, although you might need to fix it here and there.
 
 ## Dependencies
-1. `pdfinfo` and `pdfimages` (Xpdf)
-2. `identify`, `convert` and `compare` (ImageMagick) 
+1. `pdfinfo` and `pdfimages` ([Poppler](http://poppler.freedesktop.org))
+2. `identify`, `convert` and `compare` ([ImageMagick](http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-x86_64-apple-darwin13.0.0.tar.gz)) 
 
 ## Usage
 1. argument #1: filename of the PDF document (e.g. `sample.pdf`)
